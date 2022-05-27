@@ -19,7 +19,7 @@ export default function Home(props) {
 
       <main>
         {props.entries.contents.map((entry) => {
-          return <Entry entry={entry}></Entry>;
+          return <Entry entry={entry} key={entry.id}></Entry>;
         })}
       </main>
 
