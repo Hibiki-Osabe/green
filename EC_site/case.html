@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "pce6ocy",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+
+    <link rel="stylesheet" href="./css/jquery.bxslider.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".slider").bxSlider({
+            auto:true
+        });
+      });
+    </script>
+
+    <link rel="stylesheet" href="css/case.css" />
+
+    <title>100mini/case</title>
+  </head>
+  <body>
+    <header>
+      <section class="site_header">
+        <div class="site_title">
+          <figure class="site_icon">
+            <img src="./image/icon_k.png" alt="" width="40px" />
+          </figure>
+          <h1 class="site_title_logo">
+            <img src="./image/logo_k.png" alt="" height="32px" />
+          </h1>
+        </div>
+        <p><a href=""></a></p>
+      </section>
+      <nav>
+        <ul class="gnav">
+          <li class="gnav_item"><a href="./about.html">ABOUT</a></li>
+          <li class="gnav_item"><a href="./products.html">PRODUCTS</a></li>
+          <li class="gnav_item"><a href="">CONTACT</a></li>
+          <li class="gnav_item"><a href="">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="case">
+        <div class="slider_container">
+          <ul class="slider">
+            <li>
+              <a href=""><img src="./image/case_1.jpg" alt="" width="480px"/></a>
+            </li>
+            <li>
+              <a href=""><img src="./image/case_2.jpg" alt="" width="480px"/></a>
+            </li>
+            <li>
+              <a href=""><img src="./image/case_3.jpg" alt="" width="480px"/></a>
+            </li>
+          </ul>
+        </div>
+        <div class="case_text">
+          <h2 class="case_title">ミニチュア ビールケース</h2>
+          <p class="case_price">100円（税込110円）</p>
+          <p class="case_buy"><a href="">BUY NOW</a></p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="sns_container">
+        <div class="sns">
+          <a href="" class="tw"><img src="./image/twitter.png" alt="" /></a>
+        </div>
+        <div class="sns">
+          <a href="" class="fb"><img src="./image/facebook.png" alt="" /></a>
+        </div>
+        <div class="sns">
+          <a href="" class="ig"><img src="./image/instagraum.png" alt="" /></a>
+        </div>
+      </div>
+      <section class="footer_nav">
+        <p class="footer_nav_item"><a href="./index.html">HOME</a></p>
+        <p class="footer_nav_item"><a href="./about.html">ABOUT</a></p>
+        <p class="footer_nav_item"><a href="./products.html">PRODUCTS</a></p>
+        <p class="footer_nav_item"><a href="">CONTACT</a></p>
+        <p class="footer_nav_item"><a href="">FAQ</a></p>
+      </section>
+      <p class="footer_logo">
+        <a href="./index.html"
+          ><img src="./image/logo_g.png" alt="" width="174px"
+        /></a>
+      </p>
+      <p class="copylight"><small>&copy; 100_mini</small></p>
+    </footer>
+  </body>
+</html>

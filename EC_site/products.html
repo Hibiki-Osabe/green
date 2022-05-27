@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/products.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (function (d) {
+        var config = {
+            kitId: "pce6ocy",
+            scriptTimeout: 3000,
+            async: true,
+          },
+          h = d.documentElement,
+          t = setTimeout(function () {
+            h.className =
+              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+          }, config.scriptTimeout),
+          tk = d.createElement("script"),
+          f = false,
+          s = d.getElementsByTagName("script")[0],
+          a;
+        h.className += " wf-loading";
+        tk.src = "https://use.typekit.net/" + config.kitId + ".js";
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+          a = this.readyState;
+          if (f || (a && a != "complete" && a != "loaded")) return;
+          f = true;
+          clearTimeout(t);
+          try {
+            Typekit.load(config);
+          } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s);
+      })(document);
+    </script>
+
+    <title>100mini/products</title>
+  </head>
+  <body>
+    <header>
+      <section class="site_header">
+        <div class="site_title">
+          <figure class="site_icon">
+            <img src="./image/icon_k.png" alt="" width="40px" />
+          </figure>
+          <h1 class="site_title_logo">
+            <img src="./image/logo_k.png" alt="" height="32px" />
+          </h1>
+        </div>
+        <p><a href=""></a></p>
+      </section>
+      <nav>
+        <ul class="gnav">
+          <li class="gnav_item"><a href="./about.html">ABOUT</a></li>
+          <li class="gnav_item"><a href="./products.html">PRODUCTS</a></li>
+          <li class="gnav_item"><a href="">CONTACT</a></li>
+          <li class="gnav_item"><a href="">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="products">
+        <div class="products_title_container">
+          <h2 class="products_title">PRODUCTS</h2>
+          <p class="products_title_sub">商品一覧</p>
+        </div>
+        <ul class="products_item_container">
+          <li class="products_item_left">
+            <figure class="products_item_left_img">
+              <a href="./case.html"
+                ><img src="./image/case_products.jpg" alt="" width="400px"
+              /></a>
+            </figure>
+            <p class="products_item_left_name">ミニチュア ビールケース</p>
+            <p class="products_item_left_price">100yen</p>
+          </li>
+          <li class="products_item_right">
+            <p class="products_item_right_name">ミニチュア 台車</p>
+            <p class="products_item_right_price">100yen</p>
+            <figure class="products_item_right_img">
+              <a href=""
+                ><img src="./image/cart_products.jpg" alt="" width="400px"
+              /></a>
+            </figure>
+          </li>
+          <li class="products_item_left">
+            <figure class="products_item_left_img">
+              <a href=""
+                ><img src="./image/gbox_products.jpg" alt="" width="400px"
+              /></a>
+            </figure>
+            <p class="products_item_left_name">ミニチュア 掃除用具入れ</p>
+            <p class="products_item_left_price">100yen</p>
+          </li>
+        </ul>
+        <ul class="products_item_container_u">
+          <li class="products_item_left">
+            <figure class="products_item_left_img">
+              <a href=""
+                ><img src="./image/desk_products.jpg" alt="" width="400px"
+              /></a>
+            </figure>
+            <p class="products_item_left_name">ミニチュア 学校の机と椅子</p>
+            <p class="products_item_left_price">100yen</p>
+          </li>
+          <li class="products_item_right">
+            <p class="products_item_right_name">ミニチュア おしゃれなイス</p>
+            <p class="products_item_right_price">100yen</p>
+            <figure class="products_item_right_img">
+              <a href=""
+                ><img src="./image/chair_products.jpg" alt="" width="400px"
+              /></a>
+            </figure>
+          </li>
+          <li class="blank"> </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="sns_container">
+        <div class="sns">
+          <a href="" class="tw"><img src="./image/twitter.png" alt="" /></a>
+        </div>
+        <div class="sns">
+          <a href="" class="fb"><img src="./image/facebook.png" alt="" /></a>
+        </div>
+        <div class="sns">
+          <a href="" class="ig"><img src="./image/instagraum.png" alt="" /></a>
+        </div>
+      </div>
+      <section class="footer_nav">
+        <p class="footer_nav_item"><a href="./index.html">HOME</a></p>
+        <p class="footer_nav_item"><a href="./about.html">ABOUT</a></p>
+        <p class="footer_nav_item"><a href="./products.html">PRODUCTS</a></p>
+        <p class="footer_nav_item"><a href="">CONTACT</a></p>
+        <p class="footer_nav_item"><a href="">FAQ</a></p>
+      </section>
+      <p class="footer_logo">
+        <a href="./index.html"
+          ><img src="./image/logo_g.png" alt="" width="174px"
+        /></a>
+      </p>
+      <p class="copylight"><small>&copy; 100_mini</small></p>
+    </footer>
+  </body>
+</html>

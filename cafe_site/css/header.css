@@ -1,0 +1,61 @@
+.jf {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.nt {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.t {
+    font-weight: 100;
+}
+
+.l {
+    font-weight: 300;
+}
+
+.m {
+    font-weight: 500;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.header-container {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site_title img {
+    transition: all 0.3s ease;
+}
+
+.site_title img:hover {
+    opacity: 0.5;
+}
+
+.gnav {
+    display: flex;
+    margin: auto 0;
+    list-style: none;
+}
+
+.gnav-item a:hover {
+    opacity: 0.5;
+}
+
+.gnav-item a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    padding: 16px;
+    transition: all 0.3s ease;
+}
+
+

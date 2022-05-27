@@ -1,0 +1,138 @@
+.products_item_left_price,
+.products_item_right_price,
+.products_title {
+    font-family: "Josefin Sans", sans-serif;
+  }
+
+.products_item_left_name,
+.products_item_right_name,
+.products_title_sub {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+* {
+    /* background-color: #000; */
+}
+
+.products {
+    margin-bottom: 200px;
+}
+
+.products_title_container {
+    position: relative;
+    width: 1230px;
+    margin: 0 auto;
+}
+
+.products_title {
+    width: 1230px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 10px;
+    color: #707070;
+    font-size: 48px;
+}
+
+.products_title_sub {
+    font-size: 24px;
+    color: #707070;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.products_item_container {
+    /* display: flex; */
+    width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    padding: 10px 10px;
+    /* margin-top: 32px; */
+}
+
+.products_item_container_u {
+    /* display: flex; */
+    width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #fff;
+    padding: 20px 10px;
+    /* margin-top: 32px; */
+}
+
+.blank {
+    width: 400px;
+    list-style: none;
+    margin: 0 auto;
+    /* background-color: #000; */
+}
+
+
+.products_item_left {
+    /* height: 680px; */
+    list-style: none;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.products_item_left_img {
+    transition: all 0.5s;
+}
+
+.products_item_left_img:hover {
+    opacity: 0.7;
+    transform:scale(0.9,0.9);
+}
+
+.products_item_left_name {
+    width: 360px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.products_item_left_price {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.products_item_right {
+    /* height: 680px; */
+    list-style: none;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+.products_item_right_img {
+    bottom: 0;
+    transition: all 0.5s;
+}
+
+.products_item_right_img:hover {
+    opacity: 0.7;
+    transform:scale(0.9,0.9);
+}
+
+.products_item_right_name {
+    width: 360px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-top: 16px;
+    color: #fff;
+}
+
+.products_item_right_price {
+    width: 360px;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    color: #fff;
+}
+

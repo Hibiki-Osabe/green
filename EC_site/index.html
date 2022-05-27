@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/common.css" />
+
+    <link rel="stylesheet" href="./css/jquery.bxslider.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./js/jquery.bxslider.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.bxslider').bxSlider({
+          auto: true
+        });
+      });
+    </script>
+
+    <!-- <script>
+      (function(d) {
+        var config = {
+          kitId: 'pce6ocy',
+          scriptTimeout: 3000,
+          async: true
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script> -->
+
+    <title>100mini</title>
+  </head>
+  <body>
+    <header>
+      <section class="site_header">
+        <div class="site_title">
+          <figure class="site_icon">
+            <img src="./image/icon_k.png" alt="" width="40px" />
+          </figure>
+          <h1 class="site_title_logo">
+            <img src="./image/logo_k.png" alt="" height="32px" />
+          </h1>
+        </div>
+        <p><a href=""></a></p>
+      </section>
+      <nav>
+        <ul class="gnav">
+          <li class="gnav_item"><a href="./about.html">ABOUT</a></li>
+          <li class="gnav_item"><a href="./products.html">PRODUCTS</a></li>
+          <li class="gnav_item"><a href="">CONTACT</a></li>
+          <li class="gnav_item"><a href="">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <ul class="bxslider">
+        <li>
+          <a href=""><img src="./images/main_logo.jpg" alt="" /></a>
+        </li>
+        <li class="main_products">
+          <a href="./products.html"><img src="./images/main_products.jpg" alt="" /></a>
+        </li>
+      </ul>
+      <section class="new">]
+        <div class="new_title_container">
+          <h2 class="new_title">NEW</h2>
+          <p class="new_title_sub">新商品</p>
+        </div>
+        <ul class="new_item_container">
+          <li class="new_item">
+            <a href=""><img src="./image/chair_new.jpg" alt=""></a>
+            <p>ミニチュア おしゃれなイス</p>
+          </li>
+          <li class="new_item">
+            <a href=""><img src="./image/desk_new.jpg" alt=""></a>
+            <p>ミニチュア 学校の机と椅子</p>
+          </li>
+          <li class="new_item">
+            <a href=""><img src="./image/cart_new.jpg" alt=""></a>
+            <p>ミニチュア 台車</p>
+          </li>
+        </ul>
+        <p class="new_more"><a href="">view more</a></p>
+      </section>
+      <section class="rank">
+        <h2 class="rank_title">RANKING</h2>
+        <ul class="num">
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+        </ul>
+        <ul class="rank_item_container">
+          <li>
+            <a href="case.html"><img src="./image/case_small.jpg" alt="" width="240px"></a>
+            <p class="rank_item_name">ミニチュア ビールケース</p>
+            <p>100yen</p>
+          </li>
+          <li>
+            <a href=""><img src="./image/cart_small.jpg" alt="" width="240px"></a>
+            <p class="rank_item_name">ミニチュア 台車</p>
+            <p>100yen</p>
+          </li>
+          <li>
+            <a href=""><img src="./image/dustbox_small.jpg" alt="" width="240px"></a>
+            <p class="rank_item_name">ミニチュア ゴミ箱</p>
+            <p>100yen</p>
+          </li>
+          <li>
+            <a href=""><img src="./image/desk_small.jpg" alt="" width="240px"></a>
+            <p class="rank_item_name">ミニチュア 学校の机と椅子</p>
+            <p>100yen</p>
+          </li>
+          <li>
+            <a href=""><img src="./image/gbox_small.jpg" alt="" width="240px"></a>
+            <p class="rank_item_name">ミニチュア 掃除用具入れ</p>
+            <p>100yen</p>
+          </li>
+        </ul>
+      </section>
+      <section class="news">
+        <div class="news_title_container">
+          <h2 class="news_title">NEWS</h2>
+          <p class="news_title_sub">新着情報</p>
+        </div>
+        <ul class="news_item_container">
+          <li class="news_item">
+            <p class="news_item_date">2021/12/08</p>
+            <p class="news_item_text"><a href="">新商品が入荷しました。</a></p>
+          </li>
+          <li class="news_item">
+            <p class="news_item_date">2021/11/15</p>
+            <p class="news_item_text"><a href="">新商品が入荷しました。</a></p>
+          </li>
+          <li class="news_item">
+            <p class="news_item_date">2021/10/23</p>
+            <p class="news_item_text"><a href="">新商品が入荷しました。</a></p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="sns_container">
+        <div class="sns">
+          <a href="" class="tw"><img src="./image/twitter.png" alt=""></a>
+        </div>
+        <div class="sns">
+          <a href="" class="fb"><img src="./image/facebook.png" alt="" /></a>
+        </div>
+        <div class="sns">
+          <a href="" class="ig"><img src="./image/instagraum.png" alt="" /></a>
+        </div>
+      </div>
+      <section class="footer_nav">
+        <p class="footer_nav_item"><a href="./index.html">HOME</a></p>
+        <p class="footer_nav_item"><a href="./about.html">ABOUT</a></p>
+        <p class="footer_nav_item"><a href="./products.html">PRODUCTS</a></p>
+        <p class="footer_nav_item"><a href="">CONTACT</a></p>
+        <p class="footer_nav_item"><a href="">FAQ</a></p>
+      </section>
+      <p class="footer_logo">
+        <a href="./index.html"><img src="./image/logo_g.png" alt="" width="174px" /></a>
+      </p>
+      <p class="copylight"><small>&copy; 100_mini</small></p>
+    </footer>
+  </body>
+</html>
