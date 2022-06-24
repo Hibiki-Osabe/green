@@ -4,6 +4,33 @@ import Entry from "../components/Entry";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import styles from "../styles/Home.module.css";
+import styled from "styled-components";
+
+const ArticleContainer = styled.div`
+ /* background-color: #bbb; */
+ padding: 80px 0;
+`
+
+const Article = styled.article`
+  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+  /* margin: 40px; */
+  margin: 0 auto;
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+`;
+
+const ArticleTitle = styled.h2`
+ font-family: 'Josefin Sans', sans-serif;
+ width: 85%;
+ margin: 0 auto;
+ font-weight: 500;
+ font-size: 48px;
+ color: #28CC75;
+ /* color: #fff; */
+ margin-bottom: 20px;
+`
 
 export default function Home(props) {
   console.log(props.entries);
@@ -18,9 +45,15 @@ export default function Home(props) {
       <Header />
 
       <main>
-        {props.entries.contents.map((entry) => {
-          return <Entry entry={entry} key={entry.id}></Entry>;
-        })}
+        <ArticleContainer>
+          <ArticleTitle>Works</ArticleTitle>
+          <Article>
+            {props.entries.contents.map((entry) => {
+              return <Entry entry={entry} key={entry.id}></Entry>;
+            })}
+          </Article>
+          {/* <div><img src="../images/sq_300x300.png" alt="" /></div> */}
+        </ArticleContainer>
       </main>
 
       <Footer />
