@@ -12,11 +12,6 @@ const EntryContainer = styled.section`
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 `;
 
-const EntryDiv = styled.div`
-  /* margin: 32px; */
-  margin-right: 24px;
-`;
-
 const EntryTitle = styled.h2`
   width: 360px;
   margin: 0;
@@ -62,14 +57,6 @@ const EntryImage = styled.figure`
   }
 `;
 
-const EntryBody = styled.div`
-  p {
-    /* border: 1px solid red; */
-    margin: 0;
-    font-family: 'Noto Sans JP', sans-serif;
-    width: 400px;
-  }
-`;
 
 export default function Entry(props) {
   return (
@@ -81,7 +68,6 @@ export default function Entry(props) {
       </EntryImage>
       <EntryTitle>{props.entry.title}</EntryTitle>
       <EntryCategory>{props.entry.category}</EntryCategory>
-      {/* <EntryBody dangerouslySetInnerHTML={{ __html: props.entry.body }} /> */}
     </EntryContainer>
   );
 }
