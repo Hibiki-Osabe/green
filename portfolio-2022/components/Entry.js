@@ -9,7 +9,7 @@ const EntryContainer = styled.section`
   /* border: 2px solid #28CC75; */
   border-radius: 20px;
   width: 400px;
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
 `;
 
 const EntryTitle = styled.h2`
@@ -18,7 +18,7 @@ const EntryTitle = styled.h2`
   color: #28CC75;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
   /* background-color: #444444; */
   padding-left: 20px;
   /* padding-top: 5px; */
@@ -30,7 +30,7 @@ const EntryCategory = styled.h3`
   color: #298EEA;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
-  /* font-weight: 300; */
+  font-weight: 400;
   padding-left: 20px;
   padding-bottom: 30px;
 `;
