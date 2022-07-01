@@ -4,7 +4,6 @@ const FooterContainer = styled.footer`
   padding: 16px;
   background: #298EEA;
   margin-top: 64px;
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
 `;
 
 const Copyright = styled.p`

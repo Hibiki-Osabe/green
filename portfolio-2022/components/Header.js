@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const HeaderTitle = styled.h1`
-  @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
   font-family: 'Josefin Sans', sans-serif;
   background-color: #298EEA;
   font-weight: 700;

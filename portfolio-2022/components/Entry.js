@@ -9,7 +9,7 @@ const EntryContainer = styled.section`
   /* border: 2px solid #28CC75; */
   border-radius: 20px;
   width: 400px;
-  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap');
+  /* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap'); */
 `;
 
 const EntryTitle = styled.h2`
