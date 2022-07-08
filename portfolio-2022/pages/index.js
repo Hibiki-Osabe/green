@@ -70,11 +70,10 @@ export const getStaticProps = async () => {
       endpoint: "entries",
 
       queries: {
-        orders: "-publishedAt",
 
         offset: 0,
 
-        limit: 10,
+        limit: 20,
 
         // fields: 'id,title,categories,tags,publishedAt,image,description'
       },
