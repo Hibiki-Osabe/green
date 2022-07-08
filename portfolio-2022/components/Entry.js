@@ -48,6 +48,7 @@ const EntryImage = styled.figure`
     border-radius: 20px;
     transition: all ease 0.5s;
     transform: scale(0.93);
+    cursor: pointer;
   }
   img:hover {
     border-radius: 20px 20px 0 0;
