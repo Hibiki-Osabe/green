@@ -1,0 +1,25 @@
+.works-container {
+    width: 42.5%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/* .works-img img {
+    width: 100%;
+    margin: 0 auto;
+} */
+
+.works-title {
+    font-size: 20px;
+    color: #707070;
+    margin-top: 20px;
+}
+
+.works-category {
+    font-size: 20px;
+    color: #bbb;
+}
+
+.works-caption {
+    margin-top: 100px;
+}

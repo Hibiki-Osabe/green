@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap');
+.nt {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.jf {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.b {
+    font-weight: 700;
+}
+
+.sb{
+    font-weight: 600;
+}
+
+.m {
+    font-weight: 500;
+}
+
+.r {
+    font-weight: 400;
+}
+
+.l {
+    font-weight: 300;
+}
+
+
+
+
+body {
+    width: 100%;
+    display: flex;
+}
+
+header {
+    width: 20%;
+    position: fixed;
+}
+
+.gnav {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.gnav_item {
+    list-style: none;
+    margin-bottom: 1.3em;
+}
+
+.gnav_item a {
+    color: #707070;
+    text-decoration: none;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+}
+
+
+main {
+    width: 80%;
+    margin-left: 20%;
+}
+
+.site-title {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.site-title img {
+    width: 100%;
+}
+
+.copyright {
+    width: 50%;
+    color: #bbb;
+    font-size: 1.3em;
+    margin: 0 auto;
+    margin-top: 360px;
+}
+
+#about_container {
+    margin: 0 auto;
+    margin-top: 500px;
+    color: #707070;
+    width: 75%;
+    /* border: 1px solid red; */
+}
+
+.about_title {
+    font-size: 4.5em;
+    text-align: center;
+    text-shadow: 3px 3px 9px #bbb;
+}
+
+.about_sub_title {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.about_me_name {
+    font-size: 2.3em;
+    margin-top: 72px;
+}
+
+.about_me_caption {
+    margin-top: 16px;
+}
+
+.about_under {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    width: 100%;
+}
+
+.about_tools {
+    width: 50%;
+}
+
+.about_tools_title {
+    font-size: 2.3em;
+    margin-bottom: 12px;
+}
+
+.about_tools_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 80%;
+    padding: 0;
+}
+
+.about_tools_list_item {
+    margin-bottom: 10px;
+}
+
+.about_tools_list_item i {
+    font-size: 32px;
+    padding: 0 10px;
+}
+
+.about_tools_list_item img {
+    width: 40px;
+    margin-right: 8px;
+    /* border: 1px solid red; */
+}
+
+.about_skills {
+    width: 50%;
+}
+
+.about_skills_title {
+    font-size: 2.3em;
+    margin-bottom: 12px;
+}
+
+.about_skills_list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+}
+
+.about_skills_list_item {
+    background-color: #707070;
+    color: #fff;
+    font-size: 20px;
+    padding: 4px 16px 0 16px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#policy_container {
+    margin: 0 auto;
+    margin-top: 240px;
+    color: #707070;
+    width: 75%;
+    /* border: 1px solid red; */
+}
+
+.policy_title {
+    font-size: 4.5em;
+    text-align: center;
+    text-shadow: 3px 3px 9px #bbb;
+}
+
+.policy_sub_title {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.policy_item_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.policy_item {
+    width: 28%;
+}
+
+.policy_item_title {
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.policy_item_img {
+    font-size: 6em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.policy_item_caption {}
+
+#works_container {
+    margin: 0 auto;
+    margin-top: 240px;
+    padding-bottom: 200px;
+    color: #707070;
+    width: 75%;
+    /* border: 1px solid red; */
+}
+
+.works_title {
+    font-size: 4.5em;
+    text-align: center;
+    text-shadow: 3px 3px 9px #bbb;
+}
+
+.works_sub_title {
+    font-size: 0.8em;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.works_slider {
+    margin-top: 80px;
+}
+
+.works_item_container div {
+    width: 100%;
+}
+
+.works_item_img img {
+    transition: all 0.3s;
+}
+
+.works_item_img img:hover {
+    filter: grayscale(100%);
+    transform: scale(0.9);
+}
+
+.works_item_title {
+    margin-top: 24px;
+}
+
+.works_item_category {
+    color: #bbb;
+}
+
+.slick-list {
+    padding: 0 20% 0 0 !important;
+}
+.slick-slide {
+    margin-right: 60px;
+}
+.slick-list img {
+    width: 100%;
+}
+
